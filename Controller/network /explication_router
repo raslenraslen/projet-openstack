@@ -1,1 +1,16 @@
 
+Un routeur dans OpenStack permet de connecter deux réseaux : un réseau self-service (réseau privé) et un réseau provider (réseau public). Le routeur gère le transfert des paquets de données entre ces deux réseaux.
+En gros, il agit comme un "pont" entre le réseau privé de tes machines virtuelles et le réseau public
+
+
+el routeur howa el pont elli besh yorbtlk nbinet el self-service w el provider so kima nkoulo chyaamel transfert lil les packages  .. so leezm kbal matetlnaca temshi lil 
+. demo-openrc fil myuser 
+
+
+Après avoir créé le routeur, tu dois connecter ce routeur au réseau self-service. Cela permet au routeur de rediriger le trafic entre ce réseau privé et le réseau public (provider).
+
+ Cela signifie que ton réseau privé (self-service) est maintenant connecté au routeur, mais il n'a toujours pas accès à l'extérieur
+
+Les deux réseaux ne doivent pas être dans la même plage, car cela cause des conflits et empêche le routage entre eux. Le self-service est un réseau privé interne, et le provider est un réseau externe ou physique
+auquel les instances se connectent via un routeur.
+
