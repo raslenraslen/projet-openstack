@@ -1,1 +1,10 @@
+Provider Network = un réseau connecté au monde extérieur (Internet), géré par l'administrateur.
+Self-Service Network = un réseau privé pour toi, où tu contrôles tout, sans connexion directe à Internet.
 
+Provider Network = C'est comme un réseau public.
+Ce réseau est directement connecté à Internet.
+
+Si tu crées une machine virtuelle (un ordinateur virtuel) et que tu veux qu'elle accède à Internet, tu la connectes à un provider network.
+
+
+En gros, provider network permet à tes machines de sortir et de communiquer avec Internet ou d'autres ressources extérieures, car il est connecté à l'infrastructure réelle (comme les câbles ou les routeurs qui donnent accès à Internet).
