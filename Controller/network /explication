@@ -19,3 +19,10 @@ choisir des plages d'adresses IP, et plus encore, sans interférer avec le rése
 
 Un self-service network est un réseau virtuel qui permet aux utilisateurs de créer et gérer leur propre réseau interne,
 séparé du réseau extérieur (provider network). C'est comme un réseau privé pour tes machines virtuelles.
+
+
+lezem el self-service w el provider 3andhomsh nafs el plage idha el provider bil 46 lezem el selfi-service bil 45 
+tnajjem taamel "openstack subnet list "  ta taatik chniya mawjoud ka provider w ka self-service w taamel "openstack subnet list " besh tra el plage teehom 
+
+chtfassa5 self-service lezem tfassa5 les ports te3o se3a baad taamel delete liih 
+
