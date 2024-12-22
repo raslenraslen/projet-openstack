@@ -8,3 +8,14 @@ Si tu crées une machine virtuelle (un ordinateur virtuel) et que tu veux qu'ell
 
 
 En gros, provider network permet à tes machines de sortir et de communiquer avec Internet ou d'autres ressources extérieures, car il est connecté à l'infrastructure réelle (comme les câbles ou les routeurs qui donnent accès à Internet).
+
+
+
+////////////////////////////////////////////////////////////// self-service ///////
+
+Self-Service Network : C'est comme un "réseau privé" que tu peux créer et gérer toi-même pour tes machines virtuelles. Les utilisateurs (comme toi) peuvent créer leurs propres sous-réseaux, 
+choisir des plages d'adresses IP, et plus encore, sans interférer avec le réseau public.
+
+
+Un self-service network est un réseau virtuel qui permet aux utilisateurs de créer et gérer leur propre réseau interne,
+séparé du réseau extérieur (provider network). C'est comme un réseau privé pour tes machines virtuelles.
