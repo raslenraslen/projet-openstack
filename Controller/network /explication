@@ -26,3 +26,22 @@ tnajjem taamel "openstack subnet list "  ta taatik chniya mawjoud ka provider w 
 
 chtfassa5 self-service lezem tfassa5 les ports te3o se3a baad taamel delete liih 
 
+//////////////////////////////////////////////////
+
+enty chaamlt ? 
+mshiit snaat self-service baad hattit fi wsto sous-reseau feha el plage te3o elli hiya lezem tkounn # 3la el provider  baadha snaana router " opanstack router create router "  baadha nemshiw nzido  el sous rreseau te3 self-service lil router 
+elli snaaneh " Nous avons ajouté le sous-réseau selfservice au routeur router. Cela permet au routeur de connaître les adresses IP du sous-réseau privé et de faire la gestion du routage pour les communications entre ce sous-réseau et l'extérieur."
+
+maaneha nous avons configuré le routeur pourqu'il utilise le self-service comme un reseau interne  
+
+apres .... 
+nous avons configuré le routeur pourqu'il utilise la passerelle  externe  ( provider ) . Cela permet aux machines virtuelles dans le sous-réseau selfservice de communiquer avec l'extérieur via le réseau public provider . 
+ En d'autres termes, cela permet à ces machines d'accéder à Internet.
+
+////// 
+Réseau selfservice : C'est un réseau privé pour isoler tes machines.
+Sous-réseau selfservice : Une plage d'adresses IP dans le réseau selfservice.
+Routeur router : Un routeur qui connecte ton réseau privé (selfservice) au réseau public (provider), permettant la communication entre eux.
+Passerelle externe (provider) : C'est ce qui permet au réseau privé d'accéder à l'extérieur (Internet).
+
+
